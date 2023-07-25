@@ -4,7 +4,7 @@ function Layout(props) {
 
   return (
     <>
-      <header className="h-20 border-2 flex justify-center items-center">
+      <header className="h-20 border-b-2 flex justify-center items-center">
         <ul tabIndex={0} className="flex ">
           <NavLink to={"/"} className={({isActive})=> isActive? "bg-blue-300": "bg-gray-100"}>
             <li className="p-4 text-gray-800">Income</li>
@@ -15,7 +15,7 @@ function Layout(props) {
         </ul>
       </header>
       <main>{props.children}</main>
-      <footer className="h-20 border-2">All rights reserved.</footer>
+      <footer className="h-20 border-t-2">All rights reserved.</footer>
     </>
   );
 }
