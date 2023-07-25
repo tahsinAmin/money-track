@@ -8,13 +8,13 @@ main {
 }
 
 .income-banner-bg {
-    background-image: url(/public/income.webp);
+    background-image: url(/income.webp);
     background-position: center;
     background-size: cover;
     min-height: calc(100vh - 160px);
 }
 .expense-banner-bg {
-    background-image: url(/public/expense.jpg);
+    background-image: url(/expense.jpg);
     background-position: center;
     background-size: cover;
     min-height: calc(100vh - 160px);

@@ -9,7 +9,7 @@ function Layout(props) {
           <NavLink to={"/"} className={({isActive})=> isActive? "bg-blue-300": "bg-gray-100"}>
             <li className="p-4 text-gray-800">Income</li>
           </NavLink>
-          <NavLink to={"/expense"} className={({isActive})=> isActive? "bg-blue-300": "bg-gray-100"}>
+          <NavLink to={"/expense"} className={({isActive})=> isActive? "bg-red-300": "bg-gray-100"}>
             <li className="p-4 text-gray-800">Expense</li>
           </NavLink>
         </ul>

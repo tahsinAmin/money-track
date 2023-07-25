@@ -7,7 +7,8 @@ function IncomePage() {
   const [amount, setAmount] = useState(0);
   const [total, setTotal] = useState(0);
 
-  function addMoney() {
+  function addMoney(e) {
+    // e.preventDefault();
     if (text && amount) {
       setList([...list, { text: text, amount: parseInt(amount) }]);
       setTotal(parseInt(total) + parseInt(amount));
