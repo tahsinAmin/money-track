@@ -7,10 +7,10 @@ function Layout(props) {
       <header className="h-20 border-2 flex justify-center items-center">
         <ul tabIndex={0} className="flex ">
           <NavLink to={"/"} className={({isActive})=> isActive? "bg-blue-300": "bg-gray-100"}>
-            <li className="p-4">Income</li>
+            <li className="p-4 text-gray-800">Income</li>
           </NavLink>
           <NavLink to={"/expense"} className={({isActive})=> isActive? "bg-blue-300": "bg-gray-100"}>
-            <li className="p-4">Expense</li>
+            <li className="p-4 text-gray-800">Expense</li>
           </NavLink>
         </ul>
       </header>

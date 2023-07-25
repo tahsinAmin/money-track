@@ -23,7 +23,7 @@ function IncomePage() {
           <input
             type="text"
             onChange={(e) => setText(e.target.value)}
-            className="p-2 rounded-lg border-2 border-b-slate-500"
+            className="text-gray-800 p-2 rounded-lg border-2 border-b-slate-500"
             value={text}
             required
           />
@@ -32,12 +32,12 @@ function IncomePage() {
           <input
             type="number"
             onChange={(e) => setAmount(e.target.value)}
-            className="p-2 rounded-lg border-2 border-b-slate-500"
+            className="text-gray-800 p-2 rounded-lg border-2 border-b-slate-500"
             value={amount}
             required
           /><br />
           <button
-            className="p-2 text-blue-500 border-2 border-b-slate-500"
+            className="text-gray-100 p-2 bg-blue-500 border-2 border-b-slate-500"
             onClick={addMoney}
           >
             Submit
